@@ -25,17 +25,5 @@
                 <div class="portfolio-project">Coaching</div>
             </div>
         </div>
-
-        <!-- <div class="row">
-            <div class="col-md mb-md-5">
-                <img src="assets/img/portfolio-3.jpg" alt="" class="img-fluid img-portfolio">
-                <div class="portfolio-project">Coaching</div>
-            </div>
-
-            <div class="col-md mb-md-5">
-                <!-- <img src="assets/img/portfolio-4.jpg" alt="" class="img-fluid img-portfolio">
-                <div class="portfolio-project">Shippley Team</div> -->
-            </div>
-        </div> -->
     </div>
 </section>

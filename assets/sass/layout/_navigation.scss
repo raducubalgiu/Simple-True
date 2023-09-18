@@ -81,6 +81,7 @@
 
       @include respond(tab-port) {
         background-color: rgba(0, 0, 0, 0.95) !important;
+        padding-bottom: 1rem;
       }
     }
 
