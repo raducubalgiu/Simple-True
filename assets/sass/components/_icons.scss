@@ -1,0 +1,90 @@
+.icon-small {
+  vertical-align: middle;
+
+  &--about {
+    font-size: 2rem !important;
+    color: $color-primary;
+    border: 0.3rem solid $color-primary;
+    border-radius: 50%;
+    padding: 1rem;
+    transition: all 0.4s ease-in-out;
+
+    &:hover {
+      transform: rotate(-360deg);
+      color: $color-white;
+    }
+
+    &-facebook {
+      &:hover {
+        background-color: $color-facebook;
+        border: 0.3rem solid $color-facebook;
+      }
+    }
+
+    &-twitter {
+      &:hover {
+        background-color: $color-twitter;
+        border: 0.3rem solid $color-twitter;
+      }
+    }
+
+    &-instagram {
+      &:hover {
+        background: $color-instagram;
+        border: 0.3rem solid $color-instagram;
+      }
+    }
+  }
+
+  &--testimonial {
+    color: $color-primary !important;
+  }
+}
+
+.icon-social {
+  font-size: 2.4rem;
+
+  &-about {
+    font-size: 2.2;
+    text-decoration: none;
+    color: $color-primary !important;
+  }
+}
+
+.icon-after {
+  color: $color-primary !important;
+  font-size: 4rem;
+  margin-top: 3rem;
+  font-weight: 700;
+}
+
+.icon-contact {
+  font-size: 3rem;
+  padding: 2rem;
+  border: 0.3rem solid $color-primary;
+  border-radius: 50%;
+  margin-bottom: 2rem;
+  transition: all 0.4s;
+  background-color: #fff;
+  color: $color-black;
+
+  @include respond(tab-port) {
+    padding: 1.5rem;
+  }
+
+  &:hover {
+    background-color: $color-primary;
+    color: #fff;
+  }
+}
+
+.icon-foto-hover {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 100;
+  color: $color-white !important;
+  font-size: 7rem;
+  opacity: 0;
+}

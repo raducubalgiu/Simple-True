@@ -1,0 +1,170 @@
+.heading-primary {
+  &--main {
+    font-family: "Poppins", sans-serif;
+    color: $color-primary;
+    display: block;
+    font-size: 4rem;
+    line-height: 0.8;
+    font-weight: 600;
+
+    @include respond(tab-port) {
+      font-size: 3rem;
+    }
+  }
+
+  &--sub {
+    font-family: "Open Sans", sans-serif;
+    color: $color-white;
+    font-size: 6.5rem;
+    text-transform: uppercase;
+    font-weight: 300;
+
+    @include respond(tab-port) {
+      font-size: 2.5rem;
+    }
+  }
+
+  &--third {
+    font-family: "Open Sans", sans-serif;
+    color: $color-white;
+    font-weight: 700;
+    font-size: 6.5rem;
+    text-transform: uppercase;
+
+    @include respond(tab-port) {
+      font-size: 2.5rem;
+    }
+  }
+
+  &--fourth {
+    font-family: "Poppins", sans-serif;
+    font-size: 3rem;
+    color: $color-white;
+    display: block;
+    font-weight: 300;
+
+    @include respond(tab-port) {
+      font-size: 1.5rem;
+      font-weight: 300;
+    }
+  }
+}
+
+.heading-secondary {
+  &--main {
+    font-family: "Poppins", sans-serif;
+    color: $color-black;
+    display: block;
+    font-weight: 700;
+    line-height: 5.5rem;
+    font-size: 4rem;
+    position: relative;
+
+    @include respond(tab-port) {
+      font-size: 3rem;
+    }
+  }
+
+  &--sub {
+    display: block;
+    font-size: 2.3rem;
+    font-weight: 400;
+    font-family: "Open Sans", sans-serif;
+    text-decoration: none;
+    color: #464646;
+    margin-bottom: 2.5rem;
+
+    @include respond(tab-port) {
+      font-size: 2rem;
+    }
+  }
+}
+
+.heading-tertiary {
+  font-family: "Poppins", sans-serif;
+  color: $color-white;
+  font-size: 7rem;
+  text-transform: uppercase;
+  font-weight: 400;
+
+  @include respond(tab-port) {
+    font-size: 2rem;
+  }
+}
+
+.heading-title {
+  font-family: "Poppins", sans-serif;
+  color: $color-black;
+  display: block;
+  font-size: 4rem;
+  line-height: 0.8;
+  font-weight: 600;
+
+  @include respond(tab-port) {
+    font-size: 5rem;
+  }
+}
+
+.heading-about {
+  font-family: "Poppins", sans-serif;
+  font-size: 3.25rem;
+  margin-bottom: 5rem;
+  font-weight: 400;
+  color: gray;
+
+  @include respond(tab-port) {
+    font-size: 1rem;
+  }
+}
+
+.paragraph {
+  font-family: "Lato", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 300 !important;
+  color: #999999 !important;
+  line-height: 1.71429;
+  letter-spacing: 1px;
+}
+
+.recipe {
+  color: $color-base;
+  font-size: 1.55rem;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+
+  @include respond(tab-port) {
+    font-size: 1.5rem;
+  }
+}
+
+.menu-title {
+  font-size: 1.9rem;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+
+  @include respond(tab-port) {
+    font-size: 1.7rem;
+  }
+}
+
+.heading-menu-standard {
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  color: $color-black;
+  margin-bottom: 7rem;
+  font-size: 3.5rem;
+  font-weight: 500;
+
+  @include respond(tab-port) {
+    font-size: 3rem;
+    margin-bottom: 4rem;
+  }
+
+  &:after {
+    content: "-";
+    color: $color-primary !important;
+    display: block;
+    margin: 0 auto;
+  }
+}

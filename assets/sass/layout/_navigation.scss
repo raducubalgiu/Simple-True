@@ -1,0 +1,138 @@
+.header__navigation {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+
+  &-top {
+    padding: 0.1rem 0;
+    background: rgba($color-primary, 0.95);
+
+    .list-group {
+      &-item {
+        background: transparent;
+        border: none;
+        font-family: "Poppins", sans-serif;
+        color: #fff;
+        font-size: 1.1rem;
+        font-weight: 500;
+
+        @include respond(tab-port) {
+          font-size: 0.9rem;
+        }
+
+        &:nth-child(2) {
+          @include respond(tab-port) {
+            display: none;
+          }
+        }
+
+        a {
+          text-decoration: none;
+          color: #fff;
+        }
+      }
+    }
+  }
+
+  &-bottom {
+    .navbar {
+      padding-top: 0.5rem;
+      padding-bottom: 0.5rem;
+      background-color: transparent;
+
+      @include respond(tab-port) {
+        background-color: transparent;
+      }
+
+      &-toggler {
+        border: none;
+        outline: none !important;
+      }
+
+      .nav-link {
+        font-size: 1.35rem;
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        margin-left: 3rem;
+        letter-spacing: 0.15rem;
+        padding: 1rem 2rem;
+        color: $color-white !important;
+
+        &:hover {
+          color: $color-primary !important;
+        }
+
+        @include respond(tab-port) {
+          margin-top: 1.5rem;
+          font-weight: 600;
+        }
+      }
+    }
+
+    .navbar-collapse {
+      //background-color: rgba(0, 0, 0, 0.9) !important;
+
+      .nav-link {
+        text-transform: uppercase;
+        font-weight: 500;
+      }
+
+      @include respond(tab-port) {
+        background-color: rgba(0, 0, 0, 0.95) !important;
+      }
+    }
+
+    .logo {
+      width: 7rem;
+      height: auto;
+      padding: 0.5rem 0 0.5rem 0.5rem;
+
+      @include respond(phone) {
+        width: 6rem;
+      }
+    }
+  }
+
+  .navbar-light .navbar-toggler-icon {
+    @include respond(tab-port) {
+      font-size: 2rem;
+    }
+  }
+
+  .navbar-toggler:focus,
+  .navbar-toggler:active,
+  .navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+  }
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1);
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  background-color: #000 !important;
+
+  .navbar-collapse {
+    background-color: rgba(0, 0, 0, 0.9) !important;
+
+    .nav-link {
+      text-transform: uppercase;
+      font-weight: 500;
+
+      &:hover {
+        color: $color-primary !important;
+      }
+    }
+  }
+
+  .logo {
+    width: 5rem;
+  }
+}
