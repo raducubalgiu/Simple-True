@@ -207,6 +207,30 @@ body {
 .btn:focus, .btn:active {
   outline: none; }
 
+.btn-outlined:link, .btn-outlined:visited {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.5rem;
+  padding: 1rem 2rem;
+  color: #fff;
+  margin-top: 2rem;
+  border-radius: 0;
+  background-color: transparent !important;
+  border: 0.1rem solid #ffbf00 !important;
+  transition: all 0.4s;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 1pt; }
+  @media only screen and (max-width: 56.25em) {
+    .btn-outlined:link, .btn-outlined:visited {
+      font-size: 1.35rem; } }
+
+.btn-outlined:hover {
+  background-color: #ffbf00 !important;
+  color: #fff !important; }
+
+.btn-outlined:focus, .btn-outlined:active {
+  outline: none; }
+
 #back-top {
   position: fixed;
   right: 4rem;
@@ -284,7 +308,6 @@ body {
   width: 50px;
   height: 50px;
   font-size: 36px;
-  line-height: 48px;
   color: #fff;
   background-color: transparent;
   visibility: visible !important;
@@ -301,7 +324,7 @@ body {
       line-height: 30px; } }
 
 #minimal-bootstrap-carousel .carousel-control-prev {
-  left: 1rem;
+  left: 0;
   font-size: 2.5rem; }
   @media only screen and (max-width: 37.5em) {
     #minimal-bootstrap-carousel .carousel-control-prev {
@@ -309,7 +332,7 @@ body {
       border: 1px solid transparent; } }
 
 #minimal-bootstrap-carousel .carousel-control-next {
-  right: 1rem;
+  right: 0;
   font-size: 2.5rem; }
   @media only screen and (max-width: 37.5em) {
     #minimal-bootstrap-carousel .carousel-control-next {
@@ -334,6 +357,9 @@ body {
   background-size: cover;
   background-position: center center;
   background-color: #222; }
+  @media only screen and (max-width: 37.5em) {
+    #minimal-bootstrap-carousel.slider-home-one .carousel-inner .carousel-item {
+      min-height: 50vh; } }
 
 .slider-content-style .content {
   text-align: center;
@@ -349,7 +375,6 @@ body {
 .slider-content-style .content h3, .slider-content-style .content .h3 {
   color: #fff;
   font-size: 60px;
-  line-height: 1em;
   font-weight: 900;
   font-family: "Lato", sans-serif;
   -webkit-animation-delay: 0.5s;
@@ -818,13 +843,15 @@ body {
   background-color: white; }
   @media only screen and (max-width: 56.25em) {
     .section-our-story {
-      padding: 5rem 0; } }
+      padding: 2.5rem 0; } }
 
 .section-chef {
   padding: 10rem 0; }
   @media only screen and (max-width: 56.25em) {
     .section-chef {
-      padding: 5rem 0; } }
+      padding: 5rem 0; }
+      .section-chef .col-md:nth-child(2) {
+        margin-top: 2.5rem; } }
 
 .section-portfolio {
   padding: 10rem 0 0 0;

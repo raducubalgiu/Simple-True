@@ -64,7 +64,7 @@
                             <img src="assets/img/trainers/mihai-drideanu-rsz.jpg" class="card-img-top" alt="..."></a>
                         <div class="card-body">
                             <h5 class="card-title text-light pt-2">Mihai Drideanu &#x2022; <span style="color: #5a5a5a">4 teme</span></h5>
-                            <a href="trainers/mihai-drideanu/index.php" class="btn btn-default">Mai mult</a>
+                            <a href="trainers/mihai-drideanu/index.php" class="btn btn-outlined">Detalii</a>
                         </div>
                     </div>
                 </div>
@@ -74,7 +74,7 @@
                         <a href="trainers/alex-busila/index.php"><img src="assets/img/trainers/alex-busila-rsz.jpg" class="card-img-top" alt="..."></a>
                         <div class="card-body">
                             <h5 class="card-title text-light pt-2">Alex Buşilă &#x2022; <span style="color: #5a5a5a">6 teme</span></h5>
-                            <a href="trainers/alex-busila/index.php" class="btn btn-default">Mai mult</a>
+                            <a href="trainers/alex-busila/index.php" class="btn btn-outlined">Detalii</a>
                         </div>
                     </div>
                 </div>
@@ -84,7 +84,7 @@
                         <a href="trainers/andrei-vacaru/index.php"><img src="assets/img/trainers/andrei-vacaru-rsz.jpg" class="card-img-top" alt="..."></a>
                         <div class="card-body">
                             <h5 class="card-title text-light pt-2">Andrei Văcaru &#x2022; <span style="color: #5a5a5a">7 teme</span></h5>
-                            <a href="trainers/andrei-vacaru/index.php" class="btn btn-default">Mai mult</a>
+                            <a href="trainers/andrei-vacaru/index.php" class="btn btn-outlined">Detalii</a>
                         </div>
                     </div>
                 </div>
@@ -94,7 +94,7 @@
                         <a href="trainers/radu-chiriac/index.php"><img src="assets/img/trainers/radu-chiriac-rsz.jpg" class="card-img-top" alt="..."></a>
                         <div class="card-body">
                             <h5 class="card-title text-light pt-2">Radu Chiriac &#x2022; <span style="color: #5a5a5a">3 teme</span></h5>
-                            <a href="trainers/radu-chiriac/index.php" class="btn btn-default">Mai mult</a>
+                            <a href="trainers/radu-chiriac/index.php" class="btn btn-outlined">Detalii</a>
                         </div>
                     </div>
                 </div>
@@ -104,7 +104,7 @@
                         <a href="trainers/shippley-team/index.php"><img src="assets/img/trainers/shippley-team-rsz.png" class="card-img-top" alt="..."></a>
                         <div class="card-body">
                             <h5 class="card-title text-light pt-2">Shippley Team &#x2022; <span style="color: #5a5a5a">3 teme</span></h5>
-                            <a href="trainers/shippley-team/index.php" class="btn btn-default">Mai mult</a>
+                            <a href="trainers/shippley-team/index.php" class="btn btn-outlined">Detalii</a>
                         </div>
                     </div>
                 </div>

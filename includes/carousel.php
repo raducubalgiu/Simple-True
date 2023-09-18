@@ -7,8 +7,8 @@
                     <div class="box valign-middle">
                         <div class="content text-center">
                             <h3 data-animation="animated fadeInUp">Team Building</h3>
-                            <p data-animation="animated fadeInUp">Relax <span class="sep">.</span> Health <span class="sep">.</span> Lifestyle</p>
-                            <a data-animation="animated fadeInDown" href="mailto:mihnea.radita@simpletrue.ro" class="thm-btn ">Cere detalii</a>
+                            <!-- <p data-animation="animated fadeInUp">Relax <span class="sep">.</span> Health <span class="sep">.</span> Lifestyle</p> -->
+                            <a data-animation="animated fadeInDown" href="mailto:mihnea.radita@simpletrue.ro" class="btn btn-outlined">Cere detalii</a>
                         </div>
                     </div>
                 </div>
@@ -20,8 +20,8 @@
                     <div class="box valign-middle">
                         <div class="content text-center">
                             <h3 data-animation="animated fadeInUp">Coaching</h3>
-                            <p data-animation="animated fadeInUp">Relax <span class="sep">.</span> Health <span class="sep">.</span> Lifestyle</p>
-                            <a data-animation="animated fadeInDown" href="mailto:mihnea.radita@simpletrue.ro" class="thm-btn ">Cere detalii</a>
+                            <!-- <p data-animation="animated fadeInUp">Relax <span class="sep">.</span> Health <span class="sep">.</span> Lifestyle</p> -->
+                            <a data-animation="animated fadeInDown" href="mailto:mihnea.radita@simpletrue.ro" class="btn btn-outlined">Cere detalii</a>
                         </div>
                     </div>
                 </div>
@@ -34,8 +34,8 @@
                     <div class="box valign-middle">
                         <div class="content text-center">
                             <h3 data-animation="animated fadeInUp">Training</h3>
-                            <p data-animation="animated fadeInUp">Relax <span class="sep">.</span> Health <span class="sep">.</span> Lifestyle</p>
-                            <a data-animation="animated fadeInDown" href="mailto:mihnea.radita@simpletrue.ro" class="thm-btn ">Cere detalii</a>
+                            <!-- <p data-animation="animated fadeInUp">Relax <span class="sep">.</span> Health <span class="sep">.</span> Lifestyle</p> -->
+                            <a data-animation="animated fadeInDown" href="mailto:mihnea.radita@simpletrue.ro" class="btn btn-outlined">Cere detalii</a>
                         </div>
                     </div>
                 </div>
